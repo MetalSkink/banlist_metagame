@@ -99,7 +99,25 @@ export const limited = [
     remarks: ''
   },
   {
+    nombre: 'Deck Lockdown',
+    tipo: 'Spell',
+    class: 'cardlist_spell',
+    remarks: ''
+  },
+  {
+    nombre: 'Dimensional Fissure',
+    tipo: 'Spell',
+    class: 'cardlist_spell',
+    remarks: ''
+  },
+  {
     nombre: 'Pot of Desires',
+    tipo: 'Spell',
+    class: 'cardlist_spell',
+    remarks: ''
+  },
+  {
+    nombre: 'Pot of Duality',
     tipo: 'Spell',
     class: 'cardlist_spell',
     remarks: ''
@@ -123,9 +141,27 @@ export const limited = [
     remarks: ''
   },
   {
+    nombre: 'Summoning Curse',
+    tipo: 'Spell',
+    class: 'cardlist_spell',
+    remarks: ''
+  },
+  {
     nombre: 'Super Polymerization ',
     tipo: 'Spell',
     class: 'cardlist_spell',
+    remarks: ''
+  },
+  {
+    nombre: 'Macro Cosmos',
+    tipo: 'Trap',
+    class: 'cardlist_trap',
+    remarks: ''
+  },
+  {
+    nombre: 'Mistake',
+    tipo: 'Trap',
+    class: 'cardlist_trap',
     remarks: ''
   }
 ]
