@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="container mb-3">
+      <div className="mb-3">
         <img src={cornerImage} alt="Corner" className="corner-image" />
         <h1>Banlist Metagame Collector</h1>
         <h3>Arqueotipos baneados</h3>
@@ -17,7 +17,7 @@ function App() {
         </p>
         <div className='row'>
         {archetypes.map((archetype,index) => ( 
-          <div className='col-md-3' key={index}>
+          <div className='col-md-2 col-6' key={index}>
             <img src={archetype.img} alt={archetype.name}  className='img-archetype'/>
             <p>
               {archetype.name}
@@ -25,6 +25,11 @@ function App() {
           </div>
           ))
         }
+        <h3>Reglas adicionales</h3>
+        <p className='rules'>
+          - Solo se permite usar hasta un maximo de 10 handtraps en tu deck. <br/>
+          - Solo se permiten un uso de hasta 10 boardbreakers en tu deck
+        </p>
         <h3>Cartas prohibidas</h3>
         <table className="table cardlist centertable">
           <tbody>

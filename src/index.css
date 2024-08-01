@@ -1,6 +1,6 @@
 .img-archetype{
-  max-width: 220px;
-  max-height: 220px;
+  max-width: 150px;
+  max-height: 150px;
   border-radius: 5px;
   border: solid 4px white;
 }
@@ -24,6 +24,10 @@ h1,h3{
 p{
   color: aliceblue;
   font-weight: bold;
+}
+.rules{
+  font-size: 20px;
+  text-align: left;
 }
 .cardlist tr td{
   border: 1px solid #333333;
